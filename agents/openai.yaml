@@ -1,0 +1,4 @@
+interface:
+  display_name: "azheAI-Cover-Designer"
+  short_description: "口播封面三选一，支持保存和复用个人风格图"
+  default_prompt: "使用 $azheai-cover-designer，根据我的话题或稿件设计封面。"
