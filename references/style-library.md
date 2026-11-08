@@ -6,10 +6,10 @@
 
 | 图片 | 可借鉴的设计动作 | 适合的内容 |
 | --- | --- | --- |
-| [04 画给老板看](../assets/style-library/04-paper-explainer.png) | “老板听不懂 AI？画给他看！”用桌面图解和人物讲解动作，把复杂话题变成可见的工作过程 | 方法拆解、工作流程、复杂概念 |
-| [01 桌面行动](../assets/style-library/01-desk-action.png) | 暖白纸面、深色笔触大字、人物在具体工作动作中；局部橙色强调 | 方法、实操、业务动作 |
-| [02 路径转折](../assets/style-library/02-path-turn.png) | 以一条可见路径表达从混乱到清晰，深青主色与朱红强调 | 问题拆解、转变、决策过程 |
-| [03 两种选择](../assets/style-library/03-two-choices.png) | 用人物与两个空间的关系表达取舍，深靛蓝与黄绿对比 | 观点对照、选择、反常识判断 |
+| [04 画给老板看](../assets/style-library/paper-collage/04-paper-explainer.png) | “老板听不懂 AI？画给他看！”用桌面图解和人物讲解动作，把复杂话题变成可见的工作过程 | 方法拆解、工作流程、复杂概念 |
+| [01 桌面行动](../assets/style-library/paper-collage/01-desk-action.png) | 暖白纸面、深色笔触大字、人物在具体工作动作中；局部橙色强调 | 方法、实操、业务动作 |
+| [02 路径转折](../assets/style-library/paper-collage/02-path-turn.png) | 以一条可见路径表达从混乱到清晰，深青主色与朱红强调 | 问题拆解、转变、决策过程 |
+| [03 两种选择](../assets/style-library/paper-collage/03-two-choices.png) | 用人物与两个空间的关系表达取舍，深靛蓝与黄绿对比 | 观点对照、选择、反常识判断 |
 
 共同语言：大字先被读到，轻微纸纤维与剪贴层次提供质感；下半部用人物动作和具体场景解释主句。可随话题调整颜色、场景和构图。
 
@@ -39,9 +39,9 @@
 
 ## 风格四：浅色生活卡片
 
-![浅色生活卡片示意：每天拍视频，没灵感？](../assets/style-library/07-light-content-ideas.png)
+![浅色生活卡片示意：每天拍视频，没灵感？](../assets/style-library/light-life-cards/07-light-content-ideas.png)
 
-[打开示意图](../assets/style-library/07-light-content-ideas.png)。以“每天拍视频，没灵感？”示范如何让标题提出具体困扰，再用人物、笔记本和生活场景卡交代选题线索。借鉴奶白背景、圆角照片卡、黑黄描边大字和轻手绘符号，适合生活方式、经验分享与创作心得。
+[打开示意图](../assets/style-library/light-life-cards/07-light-content-ideas.png)。以“每天拍视频，没灵感？”示范如何让标题提出具体困扰，再用人物、笔记本和生活场景卡交代选题线索。借鉴奶白背景、圆角照片卡、黑黄描边大字和轻手绘符号，适合生活方式、经验分享与创作心得。
 
 ## 风格五：黑红纪实悬念
 
