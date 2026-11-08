@@ -6,7 +6,7 @@
 
 ## 看看效果
 
-六种内置风格，都能直接在 GitHub 预览。卡片标题是各风格的**选题示例**；调用时使用标出的风格名，Skill 会根据你的真实话题或稿件重新设计文字、人物动作和场景。点击图片可看大图。
+八种内置风格，都能直接在 GitHub 预览。卡片标题是各风格的**选题示例**；调用时使用标出的风格名，Skill 会根据你的真实话题或稿件重新设计文字、人物动作和场景。点击图片可看大图。
 
 | **老板听不懂 AI？画给他看！** | **夜景总拍糊？先看快门** | **旧照片能变短片？** |
 | --- | --- | --- |
@@ -16,7 +16,11 @@
 | --- | --- | --- |
 | <a href="assets/style-library/07-light-content-ideas.png"><img src="assets/style-library/07-light-content-ideas.png" width="210" alt="浅色生活卡片：每天拍视频，没灵感？"></a><br>调用名：`浅色生活卡片`<br>适合：生活方式、个人经验、创作心得 | <a href="assets/style-library/black-red-documentary-candidates/B-city-at-four-am.png"><img src="assets/style-library/black-red-documentary-candidates/B-city-at-four-am.png" width="210" alt="黑红纪实悬念：凌晨四点，城市还有谁醒着？"></a><br>调用名：`黑红纪实悬念`<br>适合：现场纪实、实地探访、观察实验 | <a href="assets/style-library/editorial-topic-collage-candidates/C-free-app-business.png"><img src="assets/style-library/editorial-topic-collage-candidates/C-free-app-business.png" width="210" alt="深色议题拼贴：免费 APP 靠什么赚钱？"></a><br>调用名：`深色议题拼贴`<br>适合：商业逻辑、社会议题、知识解释 |
 
-完整样图和设计要点见[风格参考库](references/style-library.md)。示例里的人物是创作者的宣传样张；**你的封面只使用你上传的照片作为人物身份参考**。
+| **旅途结束，回忆还在** | **封面一换，观众停下** |
+| --- | --- |
+| <a href="assets/style-library/film-documentary/travel-memory.png"><img src="assets/style-library/film-documentary/travel-memory.png" width="210" alt="电影胶片纪实：旅途结束，回忆还在"></a><br>调用名：`电影胶片纪实`<br>适合：旅行回忆、生活记录、情绪叙事 | <a href="assets/style-library/black-red-impact/cover-change.png"><img src="assets/style-library/black-red-impact/cover-change.png" width="210" alt="黑红现场冲击：封面一换，观众停下"></a><br>调用名：`黑红现场冲击`<br>适合：实操演示、现场探访、变化对比 |
+
+完整样图和设计要点见[风格参考库](references/style-library.md)。新加入的两种风格使用重新制作的公开示意图；用户上传的原始参考拼图没有进入仓库。示例里的人物只用于展示视觉方法；**你的封面只使用你上传的照片作为人物身份参考**。
 
 ## 一分钟开始
 
@@ -24,13 +28,13 @@
 
 ### 1. 安装
 
-从 [GitHub Releases](https://github.com/jaycehszz-cpu/azheai-cover-designer/releases) 下载发布包 `azheai-cover-designer.zip`，在 Codex 对话中上传，然后发送：
+从仓库主页点击 **Code → Download ZIP** 下载最新版源码包，在 Codex 对话中上传，然后发送：
 
 ```text
-请把我上传的 azheai-cover-designer.zip 安装为我的个人 Codex Skill，并检查安装后的 azheai-cover-designer/SKILL.md 是否可读。安装好后，引导我第一次使用：如果我还没有保存头像，请先请我上传一张清晰的大头照。
+请把我上传的 azheai-cover-designer-main.zip 安装为我的个人 Codex Skill，并检查安装后的 azheai-cover-designer/SKILL.md 是否可读。安装好后，引导我第一次使用：如果我还没有保存头像，请先请我上传一张清晰的大头照。
 ```
 
-Codex 应把压缩包中的 `azheai-cover-designer/` 文件夹放入个人 Skills 目录，并保留其中的 `SKILL.md`、`references/`、`assets/` 和 `agents/`。你也可以手动解压安装；目录结构应为：
+Codex 应把压缩包中的 `azheai-cover-designer-main/` 文件夹改名为 `azheai-cover-designer/`，再放入个人 Skills 目录，并保留其中的 `SKILL.md`、`references/`、`assets/` 和 `agents/`。你也可以手动解压安装；目录结构应为：
 
 ```text
 个人 Skills 目录/
@@ -83,12 +87,12 @@ Codex 应把压缩包中的 `azheai-cover-designer/` 文件夹放入个人 Skill
 上传几张视觉语言相近的图片，再用一句话说清你想借鉴什么。首次操作无需先上传头像；只有开始制作含本人人物的封面时才需要头像。
 
 ```text
-使用 $azheai-cover-designer，添加风格图：我上传的这 3 张图属于同一风格，命名为“电影胶片纪实”。要点是低饱和色彩、细颗粒、克制的大标题和真实生活场景。请保存，供我以后做封面时调用。
+使用 $azheai-cover-designer，添加风格图：我上传的这 3 张图属于同一风格，命名为“雨夜街头手账”。要点是雨夜暖灯、手写小字、街道实拍和私密的日记感。请保存，供我以后做封面时调用。
 ```
 
 保存成功后会得到类似回复：
 
-> 已保存为「电影胶片纪实」，共 3 张参考图。以后可以说：使用 `$azheai-cover-designer`，用「电影胶片纪实」风格，为我这期讲……的视频生成三张封面。
+> 已保存为「雨夜街头手账」，共 3 张参考图。以后可以说：使用 `$azheai-cover-designer`，用「雨夜街头手账」风格，为我这期讲……的视频生成三张封面。
 
 下次直接输入：
 
